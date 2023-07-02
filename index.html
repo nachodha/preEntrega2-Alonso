@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>alert(`PRIMERO ABRI LA CONSOLA, SINO EL JUEGO NO FUNCIONA`)</script>
+    <SCRipt>alert(`LUEGO APRETA EL BOTON "COMENZAR JUEGO"`)</SCRipt>
+    <h1>READ ME:</h1>
+    <H2>La simulacion del partido tiene las siguientes reglas</H2>
+    <ol><li>Este juego usa las alertas para dar feedback, y la consola para dar informacion de como funciona la simulacion. Es importante tener la consola abierta</li>
+        <li>Se formula mediante funciones que, cuando el usuario ataca, son invocadas mediante su propia toma de decisiones.</li>
+        <li>Cuando el usuario defiende, las decisiones del atacante son tomadas por el programa mediante el azar</li>
+        <li>El resultado de la funcion es true en caso de que el atacante tenga exito, o false en caso de que el atacante fracase</li>
+        <li>El resultado de la funcion nunca es fruto del azar sino de un calculo matematico entre las caracteristicas del atacante y las del defensor (puntos de ataque, puntos de defensa, puntos de fisico y puntos de energia)</li>
+        <li>Todos los jugadores tienen 100 de energia al comenzar el partido, cada decision atacante resta energia. La energia es una estadistica que interviene en cada funcion de manera tal que dos jugadores que se enfrentan en un duelo al principio de un partido pueden obtener un resultado, pero luego en el final del partido otro diferente. Por ejemplo : a -  Enzo Fernandez intenta un duelo individual contra Rafael Varane
+            b-   En este duelo interviene el ataque de Enzo(60) + la energia de Enzo(100) vs la defensa de Varane(50) + la Energia de Varane (100)
+            c-   Este duelo tiene como victorioso a Enzo por 160 puntos contra 150 puntos. Pero tiene un coste de 20 puntos de Energia, por lo que si el duelo se repite inmediatamente y Enzo intenta la misma maniobra, perdera 140 vs 150.
+            d-   Solo las acciones ofensivas tienen costo</li>
+        <li>Perder un duelo implica el cambio de posesion, y el comienzo del ataque del equipo contrario.</li>
+        <li>En todo momento el usuario (o el programa) pueden elegir patear al arco cuando estan atacando. Pero la distancia en que se encuentren del arco es decisiva en la probabilidad de hacer un GOL. Esa distancia se acorta cada vez que se gana un duelo. </li>
+        <li>La mayor cantidad de probabilidad de GOL se logra cuando, en ataque, se han ganado 4 duelos consecutivos. En ese momento se esta frente al arco y es obligatorio patear al arco.
+        </li>
+    </ol>
+    <h1>EL JUEGO NO SE ENCUENTA BALANCEADO, SOLO SE ESTABLECE LA LOGICA, REGLAS Y ESTRUCTURAS. HAY 3 JUGADORES ELEGIBLES PARA PROBAR QUE GARANTIZAN GANAR CADA DUELO: CHEAT ENGINE2, CHEAT ENGINE1 Y CHEAT ENGINE 3</h1>
+
+    <h2>Recorda abrir la consola del navegador antes de apretar el boton "COMENZAR JUEGO"</h2>
+    <button><a href="pagina1.html">COMENZAR JUEGO</a></button>
+    <button><a href="pagina1.html">COMENZAR JUEGO</a></button>
+    <button><a href="pagina1.html">COMENZAR JUEGO</a></button>
+    <button><a href="pagina1.html">COMENZAR JUEGO</a></button>
+    <button><a href="pagina1.html">COMENZAR JUEGO</a></button>
+    <button><a href="pagina1.html">COMENZAR JUEGO</a></button>
+    <button><a href="pagina1.html">COMENZAR JUEGO</a></button>
+    <button><a href="pagina1.html">COMENZAR JUEGO</a></button>
+    <button><a href="pagina1.html">COMENZAR JUEGO</a></button>
+    <button><a href="pagina1.html">COMENZAR JUEGO</a></button>
+    <button><a href="pagina1.html">COMENZAR JUEGO</a></button>
+    <button><a href="pagina1.html">COMENZAR JUEGO</a></button>
+  
+
+</body>
+</html>
